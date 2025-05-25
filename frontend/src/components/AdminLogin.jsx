@@ -39,7 +39,7 @@ const AdminLogin = () => {
   return (
     <>
     <Navbar />
-    <div className="min-h-screen flex items-center justify-center bg-indigo-200 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-indigo-500 p-4">
       <div className="w-full max-w-md">
         <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-8 border border-white/20">
           <h2 className="text-3xl font-bold text-white text-center mb-6">
