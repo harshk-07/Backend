@@ -92,7 +92,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/donor-list"
+                  to="/donors"
                   className="text-gray-300 hover:text-blue-400 transition-colors"
                 >
                   Donor List
