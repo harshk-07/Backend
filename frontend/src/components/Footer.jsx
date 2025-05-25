@@ -26,8 +26,8 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 pt-20 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-20 px-4 pt-20 pb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-blue-200">❤️ LifeShare</h3>
             <p className="text-gray-300">
