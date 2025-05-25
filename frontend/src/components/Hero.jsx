@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../index.css";
 
 
@@ -17,8 +18,8 @@ const Hero = () => {
               life-saving. Every donation counts, every life matters.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a
-                href="#register"
+              <Link
+                to="register"
                 className="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-full text-white bg-indigo-600 hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 Register Now
@@ -35,7 +36,7 @@ const Hero = () => {
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   />
                 </svg>
-              </a>
+              </Link>
               <a
                 href="#learn-more"
                 className="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-full text-indigo-600 bg-white hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-indigo-600"
